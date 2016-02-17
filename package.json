@@ -1,18 +1,24 @@
 {
-  "name": "url-loader",
-  "version": "0.5.7",
-  "author": "Tobias Koppers @sokra",
-  "description": "url loader module for webpack",
-  "dependencies": {
-    "loader-utils": "0.2.x",
-    "mime": "1.2.x"
-  },
-  "peerDependencies": {
-    "file-loader": "*"
+  "name": "phaser-asset-loader",
+  "version": "1.0.0",
+  "description": "[Documentation: Using loaders](http://webpack.github.io/docs/using-loaders.html)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:webpack/url-loader.git"
+    "url": "git+https://github.com/ajbeach2/phaser-asset-loader.git"
   },
-  "license": "MIT"
+  "author": "ajbeach2@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajbeach2/phaser-asset-loader/issues"
+  },
+  "homepage": "https://github.com/ajbeach2/phaser-asset-loader#readme",
+  "dependencies": {
+    "file-loader": "^0.8.5",
+    "loader-utils": "^0.2.12",
+    "url-loader": "^0.5.7"
+  }
 }
