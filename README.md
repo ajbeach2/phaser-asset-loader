@@ -1,1 +1,1 @@
-Phaser asset json loader
+Phaser asset json loader for webpack
